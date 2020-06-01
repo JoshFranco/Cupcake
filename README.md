@@ -1,2 +1,2 @@
-# Cupcake
+# Cupcake Corner
 multi-screen app for ordering cupcakes...
