@@ -81,14 +81,12 @@
 		DA2D10F524858A6000C70E25 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				DA63225C24858BB8008D7DDF /* Resources */,
+				DA63225B24858BA9008D7DDF /* DataLayer */,
+				DA63225A24858B9A008D7DDF /* ViewLayer */,
 				DA2D10F624858A6000C70E25 /* AppDelegate.swift */,
 				DA2D10F824858A6000C70E25 /* SceneDelegate.swift */,
-				DA2D10FD24858A6000C70E25 /* ContentView.swift */,
-				DA2D10FF24858A6100C70E25 /* Assets.xcassets */,
-				DA2D110424858A6100C70E25 /* LaunchScreen.storyboard */,
 				DA2D110724858A6100C70E25 /* Info.plist */,
-				DA2D10FA24858A6000C70E25 /* CupcakeCorner.xcdatamodeld */,
-				DA2D110124858A6100C70E25 /* Preview Content */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -108,6 +106,32 @@
 				DA2D111224858A6100C70E25 /* Info.plist */,
 			);
 			path = CupcakeCornerTests;
+			sourceTree = "<group>";
+		};
+		DA63225A24858B9A008D7DDF /* ViewLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D10FD24858A6000C70E25 /* ContentView.swift */,
+				DA2D110424858A6100C70E25 /* LaunchScreen.storyboard */,
+			);
+			path = ViewLayer;
+			sourceTree = "<group>";
+		};
+		DA63225B24858BA9008D7DDF /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D10FA24858A6000C70E25 /* CupcakeCorner.xcdatamodeld */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		DA63225C24858BB8008D7DDF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D110124858A6100C70E25 /* Preview Content */,
+				DA2D10FF24858A6100C70E25 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CupcakeCorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -386,7 +410,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CupcakeCorner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
